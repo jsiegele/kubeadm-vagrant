@@ -4,7 +4,6 @@ SETUP_NODES = true
 NODE_COUNT = 2
 MASTER_IP = "192.168.26.10"
 NODE_IP_NW = "192.168.26."
-POD_NW_CIDR = "10.244.0.0/16"
 
 # This script will prepare the box for the future kubeadm installation
 $script = <<-'SCRIPT'
