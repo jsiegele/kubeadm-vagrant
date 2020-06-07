@@ -20,7 +20,10 @@ Umgebungsvariablen exportieren:
 export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 export PATH="$PATH:/mnt/c/Program\ Files/Oracle/VirtualBox:"       
 ```
-
+Notwendigs Plugin installiert
+```
+vagrant plugin install vagrant-vbguest
+```
 
 # Source
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
