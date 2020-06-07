@@ -49,9 +49,9 @@ EOF
 
 cat >> /etc/hosts << EOF
 {
-  192.168.26.10 control.example.com control
-  192.168.26.11 worker1.example.com worker1
-  192.168.26.12 worker2.example.com worker2
+  192.168.26.10 control.example.com control master
+  192.168.26.11 worker1.example.com worker1 node1
+  192.168.26.12 worker2.example.com worker2 node2
 }
 EOF
 
