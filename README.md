@@ -33,7 +33,7 @@ vagrant plugin install vagrant-vbguest
 
 * kubeadm init (root)
 ```
-sudo kubeadm init --apiserver-advertise-address 192.168.26.10
+sudo kubeadm init --apiserver-advertise-address 192.168.26.10 --pod-network-cidr 10.1.0.0/16
 ```
 * vagrant User - Konfig laut Anweisung übernehmen
 * Pod Network Plugin installieren
@@ -67,4 +67,5 @@ sudo kubeadm join 192.168.26.10:6443 --token ty5p.1bsnr770u0mra \
 # Source
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
 https://github.com/sandervanvugt/cka
+https://medium.com/@joatmon08/playing-with-kubeadm-in-vagrant-machines-36598b5e8408
 
