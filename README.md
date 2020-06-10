@@ -35,7 +35,7 @@ vagrant plugin install vagrant-vbguest
 ```
 sudo kubeadm init --apiserver-advertise-address 192.168.26.10 --pod-network-cidr 10.1.0.0/16
 ```
-* vagrant User - Konfig laut Anweisung übernehmen
+* User - Konfig laut Anweisung des vorhergehenden Befehls übernehmen
 * Pod Network Plugin installieren
 In diesem Fall Weave:
 ```
