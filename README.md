@@ -33,7 +33,7 @@ vagrant plugin install vagrant-vbguest
 
 * kubeadm init (root)
 ```
-sudo kubeadm init --apiserver-advertise-address 192.168.26.10 --pod-network-cidr 10.1.0.0/16
+sudo kubeadm init --apiserver-advertise-address 192.168.26.10 --pod-network-cidr 192.168.0.0/16
 ```
 * User - Konfig laut Anweisung des vorhergehenden Befehls übernehmen
 ```
