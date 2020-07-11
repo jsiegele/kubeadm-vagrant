@@ -25,11 +25,12 @@ Notwendigs Plugin installiert
 vagrant plugin install vagrant-vbguest
 ```
 
-# Kubeadm provisionieren
+# Kubernetes Cluster mittels `kubeadm` erstellen
 
-## vagrant up (vagrant provision)
+## Virtuelle Images - master, node1 und node2 hochfahren
+* vagrant up + Basis Provisionierung
 
-## Control Node provisionieren
+## Master Node provisionieren
 
 * kubeadm init (root)
 ```
