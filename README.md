@@ -24,11 +24,21 @@ Notwendigs Plugin installiert
 ```
 vagrant plugin install vagrant-vbguest
 ```
+Windows HyperV deaktivieren
+```
+bcdedit /set hypervisorlaunchtype off
+```
 
 # Kubernetes Cluster mittels `kubeadm` erstellen
 
 ## Virtuelle Images - master, node1 und node2 hochfahren
 * vagrant up + Basis Provisionierung
+
+## Master Node customizing
+
+```
+scp -rp -P 2222 /home/rpri265/bin /home/rpri265/.bashrc /home/rpri265/.vim vagrant@localhost:~/.
+```
 
 ## Master Node provisionieren
 
