@@ -42,6 +42,12 @@ scp -rp -P 2222 /home/rpri265/bin /home/rpri265/.bashrc /home/rpri265/.vim vagra
 
 ## Master Node provisionieren
 
+* kubectl autocomplete
+```
+kubectl completion bash >kubectl
+sudo mv kubectl /etc/bash_completion.d/.
+```
+
 * kubeadm init (root)
 ```
 sudo kubeadm init --apiserver-advertise-address 192.168.26.10 --pod-network-cidr 192.168.0.0/16
